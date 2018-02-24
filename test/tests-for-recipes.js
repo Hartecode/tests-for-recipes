@@ -50,9 +50,9 @@ describe('Recipes', function(){
 			   res.should.be.json;
 			   res.body.should.be.a('object');
 			   res.body.should.include.keys('id', 'name', 'ingredients');
-			   res.body.name.should.equal(newRecipe.name);
+			   res.body.name.should.equal(newItem.name);
 			   res.body.ingredients.should.be.a('array');
-			   res.body.ingredients.should.include.members(newRecipe.ingredients);
+			   res.body.ingredients.should.include.members(newItem.ingredients);
 			});
 
 	});
