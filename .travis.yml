@@ -1,4 +1,9 @@
 language: node_js
-node_js: node	
-
-
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: A36f4KG+IKE/GxljV1FfTRwYmZMJaketdkIdItk48hSRIy7E2htCoYAsRfIbTRdJynAHrakocEH6D7oQf6GNBmexjm3XGnIJBpCJXZJLzaJ8ZJxGVg/W3UgFhh93iQGUUq+YQ8eULQGcSmPtWoZJddoQWAgGK6W3F9QfNNHC95w6lrSw4JL+pgVs5uBlcaIb+NPOx6D2uKcxEk9FjxYjCFOjUemD3bxQCPCGeEzKfvwn+7XDO7F1NQNoZ2P4wg+KTaPX9uCZWvN6/UXqBYm6Sgu628SSktZu9fQHMh19C+xxm6/idDcdVu4yCHFZErhzTVGuc8UIISlwVZo27RfQ75VpMl6hm9Exys4KQr1eL1Oft4X7k8noZGtvsJSMIjVKa7lQdbzxWJH/uXNTzHLFyVyYSouY2hSd2WnRSxrd9OPSuVJESjh0oiBFOzN/QhR+koogPq3L4jDgixX0mHDSLzhfgpLIZuSCsisHRtVPTkiUHLfJ68BhcGu2bdzzMO8cs2TUPOeVwlu/1xDBRcd6HIIKXDoAXXFmnnVs1Dz+1h3lLHNYcow+rh7sUOc1eYEisopJCmq3OzBKO/+Z0IIis3bL1ulsr79SiXGlpE+iN7pnMusbllkvpNbTd6DsKEmcYZT3W8KuWp+/kxb/cVLB9JKQIoQ1L+FmtKuAKbBMhyQ=
+  app:dry-reef-66155
+  on:
+    repo: Hartecode/tests-for-recipes
